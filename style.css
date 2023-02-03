@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    background-color: lightgrey;
+}
+.box{
+    border: 5px solid red;
+    box-shadow: 5px 5px  palevioletred;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px purple;
+}
+.first{
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: aliceblue;
+    color: brown;
+    text-shadow: 2px 2px 2px brown;
+}
+
+
+.offer{
+    width: 450px;
+    height: 100px;
+    margin: auto;
+    background-color: rgb(225, 244, 14);
+    position: sticky;
+    top: 70%;
+    padding:10px;
+    display: flex;
+    text-align: center;
+    text-shadow: none;
+    
+}
+.discount{
+    margin-top: 20px;
+    text-shadow: none;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 750px;
+    border: 5px solid green;
+
+
+}
+.fbox{
+    width: 250px;
+    height: 250px;
+    padding:10px;
+    background-color: aliceblue;
+    
+}
+.img{
+    margin-left: 650px;
+    margin-right: 50px;
+}
+img{
+  padding-top: 60px;
+    
+}
+.rate{
+    text-align: center;
+    margin-right: 50px;
+}
+#submit{
+    background-color: brown;
+    border-radius: 10px;
+}
+.container2{
+    display: flex;
+    width:50%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: green;
+    flex-wrap: wrap;
+    border: 5px solid rgb(235, 20, 113);
+
+}
+.item{
+    text-align: center;
+    font-style: italic;
+    border: 2% solid gray;
+}
+.heading{
+    text-align: center;
+    width: 100%;
+    border: none;
+}
+.fruits{
+    width: 48%;
+    background-color: khaki;
+    
+}
+.vegetables{
+    width: 48%;
+    background-color: khaki;
+    margin-left: 4%;
+
+}
+.otheritems{
+    background-color: khaki;
+    margin-top: 10px;
+}
